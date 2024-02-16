@@ -10,5 +10,5 @@ package cola;
  */
 public abstract class Base {
     
-    public abstract Base copy(); 
+    public abstract Base copy();
 }
