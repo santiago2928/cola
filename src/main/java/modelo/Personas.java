@@ -62,6 +62,13 @@ public class Personas extends Base {
         this.nombrePersona = nombrePersona;
     }
 
+    @Override
+    public String toString() {
+        return "Personas{" + "nombrePersona=" + nombrePersona + ", correoPersona=" + correoPersona + '}';
+    }
+    
+    
+
     
     @Override
     public Base copy() {
